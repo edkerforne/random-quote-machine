@@ -15,17 +15,16 @@ const Share = props => {
     <div id="share">
       <a
         className="icon"
-        href={`https://twitter.com/intent/tweet?text="${props.text}" - ${props.author}&url=${homepage}&hashtags=quotes,inspirational`}
-        target="_blank"
-        rel="noopener noreferrer"
+        title="Tweet this quote!"
+        href={`https://twitter.com/intent/tweet?text="${props.text}" - ${props.author}&url=${homepage}&hashtags=quotes`}
       >
         <FontAwesomeIcon icon={faTwitter} />
       </a>
+
       <a
         className="icon"
-        href={`https://www.tumblr.com/widgets/share/tool?posttype=quote&content=${props.text}&caption=${props.author}&tags=quotes,inspirational&show-via=${homepage}`}
-        target="_blank"
-        rel="noopener noreferrer"
+        title="Post this quote on Tumblr!"
+        href={`https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes&content=${props.text}&caption=${props.author}&canonicalUrl=https://edkerforne.github.io/random-quote-machine&shareSource=tumblr_share_button`}
       >
         <FontAwesomeIcon icon={faTumblr} />
       </a>
