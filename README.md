@@ -4,4 +4,4 @@ It was made for the freeCodeCamp [front end libraries challenge](https://www.fre
 
 ## License
 
-[MIT License](https://edkerforne.github.io/random-quote-machine/)
+[MIT License](https://github.com/edkerforne/random-quote-machine/blob/master/LICENSE.md)
